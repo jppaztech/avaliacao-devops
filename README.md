@@ -4,9 +4,11 @@
 - **Aplicação Web:** http://localhost:8080
 - **phpMyAdmin:** http://localhost:8081
 - **Host do Banco:** mysql | **Usuário:** aluno | **Senha:** 123456
+- **Equipe:** João Paulo Paz e Bruno Henrique Souza
 
 ## Comandos Principais
 - `docker compose up -d --build` (Inicia o ambiente)
+- `curl http://localhost:8080` (Confirma o conteúdo servido pela aplicação)
 - `docker compose down` (Remove o ambiente)
 - `docker compose ps` (Status dos containers)
 
